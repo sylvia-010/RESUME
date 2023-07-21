@@ -1,31 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        primary: '#a1a1aa',
+                    }
+                }
+            }
+        }
+    </script>
+
     <title>我的作品集</title>
 </head>
-<body>
-    <div class="group">
-        <div class="left">
-           <div class="selfie">
-            <img src="" alt="">
-           </div>
-           <div class="info">
-                <h4></h4>
-                <p></p>
-           </div>
+
+<body class="bg-white">
+    <div class="main">
+        <div class="group">
+            <div class="left">
+                <div class="selfie">
+                    <img src="" alt="">
+                </div>
+                <div class="info">
+                    <h4></h4>
+                    <p></p>
+                </div>
+            </div>
+            <div class="right">
+                網站建置中...Coming soon
+            </div>
         </div>
-        <div class="right">
-            網站建置中...Coming soon 
-        </div>
+
+        <footer>
+            <div>
+
+            </div>
+        </footer>
     </div>
-
-    <footer>
-        <div>
-
-        </div>
-    </footer>
-    
 </body>
+
 </html>
