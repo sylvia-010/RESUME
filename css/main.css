@@ -193,3 +193,42 @@ footer {
   background-color: #14213D;
   z-index: 20;
 }
+
+@media(max-width:992px){
+  .main {
+    margin: 0;
+  }
+  .group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .left{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .left>.selfie {
+    margin-top: 0;
+    margin-right: 0;
+  }
+  .right{
+    width: 100%;
+    margin-top: 25px;
+  }
+
+  .workexp, .works {
+    margin-left: 20px;
+    max-width: 270px;
+    
+  }
+  .left>.info {
+    margin-right: 0;
+    padding-left: 45px;
+  }
+  .list_group {
+    max-width: 270px;
+    display: flex;
+    justify-content: center;
+    line-height: 18px;
+  }
+}
